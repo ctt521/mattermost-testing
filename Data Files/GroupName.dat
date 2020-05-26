@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>User Accounts</name>
+   <name>GroupName</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>0e5e2a36-139b-404c-bb93-b491d14c259c</dataFileGUID>
-   <dataSourceUrl>/Users/hieutong/Documents/hieutong/AdvancedItem/mattermost-testing/csv/UserAccounts.csv</dataSourceUrl>
+   <dataFileGUID>39d3e5de-3ca4-47d6-a2fe-0b1c41ecbf80</dataFileGUID>
+   <dataSourceUrl>/Users/hieutong/Documents/hieutong/AdvancedItem/mattermost-testing/csv/NameGroups.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

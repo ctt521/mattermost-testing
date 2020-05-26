@@ -37,4 +37,25 @@
          <variableId>2110bb5a-a635-4474-960b-85e6b8bc644f</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>cdbd81c1-5ddc-4cf3-892a-9f45f0392cec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create groups</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f62ffbf7-4326-4fe0-b1c3-753db4b266a1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/GroupName</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f62ffbf7-4326-4fe0-b1c3-753db4b266a1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namegroup</value>
+         <variableId>9ae21900-dfda-4fe0-89ea-56255122de6f</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

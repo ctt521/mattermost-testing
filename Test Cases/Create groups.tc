@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create groups</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d943476-ad94-4373-af85-8886f3b34710</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9ae21900-dfda-4fe0-89ea-56255122de6f</id>
+      <masked>false</masked>
+      <name>namegroup</name>
+   </variable>
+</TestCaseEntity>

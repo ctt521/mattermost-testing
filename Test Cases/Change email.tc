@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c19900ee-f662-4399-ae57-397c7cd629e9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0e7bc36-b378-4002-8fbc-184cf1311c8a</id>
+      <masked>false</masked>
+      <name>newemail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0ca144c-05d2-46ed-b14f-8d668c5c6c39</id>
+      <masked>false</masked>
+      <name>confirmemail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d629a303-66dc-4365-9001-38b8499fede8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

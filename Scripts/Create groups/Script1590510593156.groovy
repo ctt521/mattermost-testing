@@ -18,19 +18,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/create_team/display_name')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'sysadmin')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user-1')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), '2SwE/drL9BoSDSAWnt1s8EiQe9rbSfQc')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'MZgS3bkacIma+dCTaK/maA==')
 
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_Team Name_teamNameInput'), namegroup)
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Next'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Finish'))
+WebUI.setText(findTestObject('null'), 
+    'abc')
+
+WebUI.setText(findTestObject('null'), 
+    'abc')
+
+WebUI.setEncryptedText(findTestObject('null'), 
+    'xydEUZmV0IE=')
+
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

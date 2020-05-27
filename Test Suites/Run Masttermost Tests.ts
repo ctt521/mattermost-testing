@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>cdbd81c1-5ddc-4cf3-892a-9f45f0392cec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Create groups</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -56,6 +56,39 @@
          <type>DATA_COLUMN</type>
          <value>namegroup</value>
          <variableId>9ae21900-dfda-4fe0-89ea-56255122de6f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ed8e4e2e-1a34-4fdf-bcfa-aadc1232d359</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change email</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>30e13e9f-b8cf-46b5-8d51-1e8972750c29</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Emails</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>30e13e9f-b8cf-46b5-8d51-1e8972750c29</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newemail</value>
+         <variableId>e0e7bc36-b378-4002-8fbc-184cf1311c8a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30e13e9f-b8cf-46b5-8d51-1e8972750c29</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmemail</value>
+         <variableId>d0ca144c-05d2-46ed-b14f-8d668c5c6c39</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>30e13e9f-b8cf-46b5-8d51-1e8972750c29</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d629a303-66dc-4365-9001-38b8499fede8</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

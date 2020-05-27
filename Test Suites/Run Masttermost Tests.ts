@@ -38,13 +38,67 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cdbd81c1-5ddc-4cf3-892a-9f45f0392cec</guid>
+      <guid>eb1e6517-2228-48f0-9052-ab41e476ebd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Create groups</testCaseId>
+      <testCaseId>Test Cases/Create channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f62ffbf7-4326-4fe0-b1c3-753db4b266a1</id>
+         <id>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NameChannel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>104a9c72-9817-42c9-b699-59eeecf29402</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Change email accounts</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7634145d-41c3-4f21-874b-d5c43b0a9e63</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New emails</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7634145d-41c3-4f21-874b-d5c43b0a9e63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newemail</value>
+         <variableId>72654f70-129f-440d-b184-5a6a532e72f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7634145d-41c3-4f21-874b-d5c43b0a9e63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmemail</value>
+         <variableId>641bc751-d6ae-4b0e-8e42-08b91b3d10bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7634145d-41c3-4f21-874b-d5c43b0a9e63</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>cd94e76e-df07-4f23-b60a-026b7f8a9b75</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bef248e0-52cd-445e-aa4b-9d194726221f</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -52,43 +106,10 @@
          <testDataId>Data Files/GroupName</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>f62ffbf7-4326-4fe0-b1c3-753db4b266a1</testDataLinkId>
+         <testDataLinkId>bef248e0-52cd-445e-aa4b-9d194726221f</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>namegroup</value>
-         <variableId>9ae21900-dfda-4fe0-89ea-56255122de6f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ed8e4e2e-1a34-4fdf-bcfa-aadc1232d359</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Change email</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>30e13e9f-b8cf-46b5-8d51-1e8972750c29</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Emails</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>30e13e9f-b8cf-46b5-8d51-1e8972750c29</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>newemail</value>
-         <variableId>e0e7bc36-b378-4002-8fbc-184cf1311c8a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>30e13e9f-b8cf-46b5-8d51-1e8972750c29</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>confirmemail</value>
-         <variableId>d0ca144c-05d2-46ed-b14f-8d668c5c6c39</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>30e13e9f-b8cf-46b5-8d51-1e8972750c29</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>d629a303-66dc-4365-9001-38b8499fede8</variableId>
+         <variableId>eed1def5-9e66-4ecd-a23e-f0f4d1c26680</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

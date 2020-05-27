@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Emails</name>
+   <name>NameChannel</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>d3ea603a-e11b-47a9-80bd-c095d89a5ca5</dataFileGUID>
+   <dataFileGUID>3718c384-3c1f-4e8b-a317-1134a5efbd34</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>abc abc abcd</data>
-   <data>abc%40abc.com acbd%40abc.com 1234</data>
+   <data>1</data>
+   <data>2</data>
+   <data>de</data>
+   <data>a</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>newemail</name>
-      <size>2</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>1</columnIndex>
-      <name>confirmemail</name>
-      <size>2</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>2</columnIndex>
-      <name>password</name>
-      <size>2</size>
+      <name>name</name>
+      <size>4</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

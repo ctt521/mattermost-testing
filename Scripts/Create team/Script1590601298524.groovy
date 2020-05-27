@@ -24,22 +24,14 @@ WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in on
 
 WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'MZgS3bkacIma+dCTaK/maA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))
+WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/div_'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/input_Team Name_teamNameInput'), 
+    namegroup)
 
-WebUI.setText(findTestObject('null'), 
-    'abc')
-
-WebUI.setText(findTestObject('null'), 
-    'abc')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'xydEUZmV0IE=')
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/button_Next'))
 
 WebUI.closeBrowser()
 

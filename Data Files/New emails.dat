@@ -10,20 +10,23 @@
    <driver>InternalData</driver>
    <data>abc abc abc</data>
    <data>abcd 1234 123</data>
+   <data>abc%40abc.com edf 12</data>
+   <data>abc%40.com abc abcd</data>
+   <data>truong%40gmail.com truong%40gmail.com vcd</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>newemail</name>
-      <size>2</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>confirmemail</name>
-      <size>2</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>password</name>
-      <size>2</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -12,10 +12,11 @@
    <data>2</data>
    <data>de</data>
    <data>a</data>
+   <data>4</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>name</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

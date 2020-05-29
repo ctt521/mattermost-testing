@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>2c8d3ae0-f71f-4d75-8cde-71c11665a441</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/InternalData_LoginFailInvalidAccount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -62,6 +62,33 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>052e2a2c-f7a5-4d83-bf6a-fc70a5004035</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8be7f5fa-4843-4a2c-8093-6d9e12e2df1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ForWhile_LoginNTimes</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0a7829fb-71b2-4bd5-a60b-1d9bf6578d79</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0a7829fb-71b2-4bd5-a60b-1d9bf6578d79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6db503e1-b571-42b8-8ab6-ab50447275a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a7829fb-71b2-4bd5-a60b-1d9bf6578d79</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d00e4df8-023e-41fb-acb6-ddc84075a5e5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

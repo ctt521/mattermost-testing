@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CSV_Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -110,6 +110,33 @@
          <type>DATA_COLUMN</type>
          <value>namegroup</value>
          <variableId>eed1def5-9e66-4ecd-a23e-f0f4d1c26680</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2ea680b-4d98-43dc-837c-b29494633a01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ForWhile_LoginNTimes</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>51d9ffcc-dcac-43a6-8d9b-8619ff7d602c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>51d9ffcc-dcac-43a6-8d9b-8619ff7d602c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6db503e1-b571-42b8-8ab6-ab50447275a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>51d9ffcc-dcac-43a6-8d9b-8619ff7d602c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d00e4df8-023e-41fb-acb6-ddc84075a5e5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

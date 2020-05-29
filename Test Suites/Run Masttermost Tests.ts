@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -110,6 +110,27 @@
          <type>DATA_COLUMN</type>
          <value>namegroup</value>
          <variableId>eed1def5-9e66-4ecd-a23e-f0f4d1c26680</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71bb0baf-799b-409a-b43f-cbaeabae5441</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wrong password account</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>01a085a7-f998-4ebb-b9cf-97c6bdc010cb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Accounts</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>01a085a7-f998-4ebb-b9cf-97c6bdc010cb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>31bba012-ad5a-4007-bde5-e25abaaf8ab6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

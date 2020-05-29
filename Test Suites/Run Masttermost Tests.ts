@@ -143,7 +143,7 @@
       <guid>ce0acedc-6728-4659-a775-24c77a6988ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/InternalData_Create new team</testCaseId>
+      <testCaseId>Test Cases/CallTC_Create new team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>886c931d-f34e-432a-8368-cd2d1a4435e5</id>

@@ -8,11 +8,11 @@
    <dataFileGUID>3d45293c-4a94-4670-bd48-8cc824f24f34</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>abc 5Ed5CIkj9UQfaMZXAkDVaQ%3D%3D abcd1234</data>
-   <data>user-1 MZgS3bkacIma%2BdCTaK%2FmaA%3D%3D SampleUs%40r-1</data>
-   <data>abcd 5Ed5CIkj9URTaTZUEOxAiQ%3D%3D abcd123456</data>
-   <data>hoangnguyen X3%2BBISe%2BmZsi9LbjuUIPmA%3D%3D hoangnguyen%2B1</data>
-   <data>hoanganh 9USXa8vKusJ1aVQ4il%2Fwow%3D%3D hoang123456</data>
+   <data>abc 5Ed5CIkj9UQfaMZXAkDVaQ%3D%3D abcd1234 TeamA</data>
+   <data>user-1 MZgS3bkacIma%2BdCTaK%2FmaA%3D%3D SampleUs%40r-1 Delta</data>
+   <data>abcd 5Ed5CIkj9URTaTZUEOxAiQ%3D%3D abcd123456 Long+Legs+Ladies</data>
+   <data>hoangnguyen X3%2BBISe%2BmZsi9LbjuUIPmA%3D%3D hoangnguyen%2B1 Cookolic</data>
+   <data>hoanganh 9USXa8vKusJ1aVQ4il%2Fwow%3D%3D hoang123456 Volunteer</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
@@ -26,6 +26,11 @@
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>pwd_o</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>new_team</name>
       <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

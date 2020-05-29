@@ -14,7 +14,7 @@
       <guid>56e5e437-5ec6-4429-a640-a842b51a38be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/InternalData_LoginLogoutSucceed</testCaseId>
+      <testCaseId>Test Cases/InternalData_Login succeed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>86ed2fe3-bbfe-4805-9b1d-d356897a7bcd</id>
@@ -41,7 +41,7 @@
       <guid>2c8d3ae0-f71f-4d75-8cde-71c11665a441</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/InternalData_LoginFailInvalidAccount</testCaseId>
+      <testCaseId>Test Cases/InternalData_Login fail with invalid account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>22e3b8b2-1ae3-4c7f-b084-0ebc67c7d702</id>
@@ -67,8 +67,8 @@
    <testCaseLink>
       <guid>8be7f5fa-4843-4a2c-8093-6d9e12e2df1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ForWhile_LoginNTimes</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/ForWhile_Login n times</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0a7829fb-71b2-4bd5-a60b-1d9bf6578d79</id>

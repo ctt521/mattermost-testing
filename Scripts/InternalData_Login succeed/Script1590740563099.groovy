@@ -26,7 +26,3 @@ WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communicat
 
 WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/span'))
-
-WebUI.click(findTestObject('Page_Town Square - hotpink Mattermost/button_Logout (1)'))
-

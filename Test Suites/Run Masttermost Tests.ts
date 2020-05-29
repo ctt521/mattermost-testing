@@ -115,8 +115,8 @@
    <testCaseLink>
       <guid>e2ea680b-4d98-43dc-837c-b29494633a01</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ForWhile_LoginNTimes</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/ForWhile_Login n times</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>51d9ffcc-dcac-43a6-8d9b-8619ff7d602c</id>
@@ -137,6 +137,66 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>d00e4df8-023e-41fb-acb6-ddc84075a5e5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce0acedc-6728-4659-a775-24c77a6988ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/InternalData_Create new team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>886c931d-f34e-432a-8368-cd2d1a4435e5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>886c931d-f34e-432a-8368-cd2d1a4435e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>new_team</value>
+         <variableId>e81deb9b-598d-4470-98f0-4813222549f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>886c931d-f34e-432a-8368-cd2d1a4435e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>716cfb7c-6a61-4168-a9b7-7c327ce35758</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>886c931d-f34e-432a-8368-cd2d1a4435e5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>012b78a3-6be4-4893-8e5d-1895f0a3b8ea</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>141151af-9fc5-4ec7-9737-5103b74aca9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/InternalData_Login succeed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e176e4a7-d380-4a05-9086-d657728ae57c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e176e4a7-d380-4a05-9086-d657728ae57c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>bd594350-4032-4d78-af0a-9eeead2b1af3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e176e4a7-d380-4a05-9086-d657728ae57c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>5a5b4d02-696f-4816-8444-b045800fbdae</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

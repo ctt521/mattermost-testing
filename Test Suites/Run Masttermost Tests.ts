@@ -14,7 +14,7 @@
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Internal/Login user accounts</testCaseId>
+      <testCaseId>Test Cases/Data Type/Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1dd1038f-f697-44bd-9184-62a773bc314a</id>
@@ -95,7 +95,7 @@
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Internal/Create team</testCaseId>
+      <testCaseId>Test Cases/Data Type/Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bef248e0-52cd-445e-aa4b-9d194726221f</id>
@@ -116,7 +116,7 @@
       <guid>71bb0baf-799b-409a-b43f-cbaeabae5441</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Internal/Wrong password account</testCaseId>
+      <testCaseId>Test Cases/Data Type/Wrong password account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>01a085a7-f998-4ebb-b9cf-97c6bdc010cb</id>
@@ -137,7 +137,7 @@
       <guid>eee92a4a-14d5-472a-9e4b-5e1276fbf1eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Internal/Wrong username account</testCaseId>
+      <testCaseId>Test Cases/Data Type/Wrong username account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>78504461-c787-45ab-84f8-977e374d59e2</id>

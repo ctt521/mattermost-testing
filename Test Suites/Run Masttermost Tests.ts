@@ -11,112 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>7273f097-4f3c-4484-b529-8634f2d4e32d</testSuiteGuid>
    <testCaseLink>
-      <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/CSV_Login user accounts</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1dd1038f-f697-44bd-9184-62a773bc314a</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/User Accounts</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>1dd1038f-f697-44bd-9184-62a773bc314a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>5c713999-ae3b-47b6-b11b-91edfe537765</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>1dd1038f-f697-44bd-9184-62a773bc314a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>2110bb5a-a635-4474-960b-85e6b8bc644f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eb1e6517-2228-48f0-9052-ab41e476ebd4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/InternalData_Create channel</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/NameChannel</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>name</value>
-         <variableId>104a9c72-9817-42c9-b699-59eeecf29402</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/InternalData_Change email accounts</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>7634145d-41c3-4f21-874b-d5c43b0a9e63</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/New emails</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>7634145d-41c3-4f21-874b-d5c43b0a9e63</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>newemail</value>
-         <variableId>72654f70-129f-440d-b184-5a6a532e72f0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7634145d-41c3-4f21-874b-d5c43b0a9e63</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>confirmemail</value>
-         <variableId>641bc751-d6ae-4b0e-8e42-08b91b3d10bd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7634145d-41c3-4f21-874b-d5c43b0a9e63</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>cd94e76e-df07-4f23-b60a-026b7f8a9b75</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/CSV_Create team</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>bef248e0-52cd-445e-aa4b-9d194726221f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/GroupName</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>bef248e0-52cd-445e-aa4b-9d194726221f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>namegroup</value>
-         <variableId>eed1def5-9e66-4ecd-a23e-f0f4d1c26680</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e2ea680b-4d98-43dc-837c-b29494633a01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ForWhile_Login n times</testCaseId>
+      <testCaseId>Test Cases/Loop Statement/Login n times</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>51d9ffcc-dcac-43a6-8d9b-8619ff7d602c</id>
@@ -143,7 +41,7 @@
       <guid>ce0acedc-6728-4659-a775-24c77a6988ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/CallTC_Create new team</testCaseId>
+      <testCaseId>Test Cases/Call Test Case/Create new team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>886c931d-f34e-432a-8368-cd2d1a4435e5</id>
@@ -176,7 +74,7 @@
       <guid>141151af-9fc5-4ec7-9737-5103b74aca9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/InternalData_Login succeed</testCaseId>
+      <testCaseId>Test Cases/Internal/Login succeed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e176e4a7-d380-4a05-9086-d657728ae57c</id>

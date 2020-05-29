@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>InternalData_UserAccount</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3d45293c-4a94-4670-bd48-8cc824f24f34</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>abc 5Ed5CIkj9UQfaMZXAkDVaQ%3D%3D abcd1234</data>
+   <data>user-1 MZgS3bkacIma%2BdCTaK%2FmaA%3D%3D SampleUs%40r-1</data>
+   <data>abcd 5Ed5CIkj9URTaTZUEOxAiQ%3D%3D abcd123456</data>
+   <data>hoangnguyen X3%2BBISe%2BmZsi9LbjuUIPmA%3D%3D hoangnguyen%2B1</data>
+   <data>hoanganh 9USXa8vKusJ1aVQ4il%2Fwow%3D%3D hoang123456</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>username</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>pwd_o</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

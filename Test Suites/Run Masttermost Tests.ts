@@ -14,7 +14,7 @@
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Login user accounts</testCaseId>
+      <testCaseId>Test Cases/CSV_Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1dd1038f-f697-44bd-9184-62a773bc314a</id>
@@ -41,7 +41,7 @@
       <guid>eb1e6517-2228-48f0-9052-ab41e476ebd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Create channel</testCaseId>
+      <testCaseId>Test Cases/InternalData_Create channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</id>
@@ -62,7 +62,7 @@
       <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Change email accounts</testCaseId>
+      <testCaseId>Test Cases/InternalData_Change email accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7634145d-41c3-4f21-874b-d5c43b0a9e63</id>
@@ -95,7 +95,7 @@
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create team</testCaseId>
+      <testCaseId>Test Cases/CSV_Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bef248e0-52cd-445e-aa4b-9d194726221f</id>

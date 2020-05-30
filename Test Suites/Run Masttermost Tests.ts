@@ -385,7 +385,7 @@
    <testCaseLink>
       <guid>5f4d9e74-a6cd-40b4-bffb-1b4cdca43bec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Type/Create public channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -413,6 +413,39 @@
          <type>DATA_COLUMN</type>
          <value>createPublicChannel</value>
          <variableId>60f3c17d-3270-4470-8539-919340518e58</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>29c8fd39-bb8f-4299-9af7-878708cff194</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Type/Create private channel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eeab4e9f-1905-4f3f-af88-8c3c5e3d584f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UserAccount_NameChannel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>eeab4e9f-1905-4f3f-af88-8c3c5e3d584f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>143fe47e-e3c1-4f9f-b7f8-aef5df358512</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eeab4e9f-1905-4f3f-af88-8c3c5e3d584f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>8fbae369-9a7b-41dd-8f1c-8f3abe2e20ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eeab4e9f-1905-4f3f-af88-8c3c5e3d584f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>createPrivateChannel</value>
+         <variableId>049d1f87-f58d-4d4b-bea5-3d91c871bc7f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

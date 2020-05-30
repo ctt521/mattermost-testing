@@ -20,13 +20,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
 
-for(int i = 0; i < 4; i++){
-		WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), username)
-		WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), password)
-		WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
-		loginSucceed = findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/span')
-		WebUI.click(findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/span'))
-		WebUI.click(findTestObject('Page_Town Square - hotpink Mattermost/button_Logout (1)'))
-}
+for (int i = 0; i < 4; i++) {
+    WebUI.setText(findTestObject('Page_Mattermost/input_username'), username)
 
+    WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_password'), password)
+
+    WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+
+    loginSucceed = findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/btn_hambergerMenu')
+
+    WebUI.click(findTestObject('Page_Town Square - hotpink Mattermost/btn_hambergerMenu'))
+
+    WebUI.click(findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/button_Logout (1)'))
+}
 

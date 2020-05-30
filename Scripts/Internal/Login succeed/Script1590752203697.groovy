@@ -20,9 +20,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), username)
+WebUI.setText(findTestObject('Page_Mattermost/input_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), password)
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_password'), password)
 
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 

@@ -16,9 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Internal/Login succeed'), ['username':username, 'password': password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Internal/Login succeed'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/path'))
+WebUI.click(findTestObject('Page_Town Square - hotpink Mattermost/btn_hambergerMenu'))
 
 WebUI.click(findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/a_Create a New Team'))
 

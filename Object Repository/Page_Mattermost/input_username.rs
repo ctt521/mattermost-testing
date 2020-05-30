@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_All team communication in one place s_703ef5 (1)</name>
+   <name>input_username</name>
    <tag></tag>
-   <elementGuidId>990429ad-674f-4c18-9ba9-b6f3dc9c4611</elementGuidId>
+   <elementGuidId>fe69a165-7c18-401a-96a3-7aa631cc491d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='loginId']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

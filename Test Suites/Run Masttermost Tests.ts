@@ -232,7 +232,7 @@
    <testCaseLink>
       <guid>86c626c9-81d0-4c6f-8846-d3ee8a16d55a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Loop Statement/Login n times</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -287,6 +287,39 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>012b78a3-6be4-4893-8e5d-1895f0a3b8ea</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8d69cbc-7701-455a-ab36-702a0cbc77bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Create post</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bdce58d9-8b70-4a26-8d99-ede435c6d038</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bdce58d9-8b70-4a26-8d99-ede435c6d038</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6ec309b9-eae5-455e-870c-0cb0b181385b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bdce58d9-8b70-4a26-8d99-ede435c6d038</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c5838a3c-04c5-4cfb-9ab9-f0eea06bc7b3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bdce58d9-8b70-4a26-8d99-ede435c6d038</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newpost</value>
+         <variableId>08cd727f-2086-4c30-806c-765d047fac9d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -8,11 +8,11 @@
    <dataFileGUID>3d45293c-4a94-4670-bd48-8cc824f24f34</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>abc 5Ed5CIkj9UQfaMZXAkDVaQ%3D%3D abcd1234 TeamA Hello %E7%8A%AC%E5%A4%9C%E5%8F%89</data>
-   <data>user-1 MZgS3bkacIma%2BdCTaK%2FmaA%3D%3D SampleUs%40r-1 Delta How+are+you%3F Sengoku+Otogiz%C5%8Dshi+Inuyasha</data>
-   <data>abcd 5Ed5CIkj9URTaTZUEOxAiQ%3D%3D abcd123456 Long+Legs+Ladies I%27m+fine+%40abc November+13%2C+1996</data>
-   <data>hoangnguyen X3%2BBISe%2BmZsi9LbjuUIPmA%3D%3D hoangnguyen%2B1 Cookolic I%27ll+be+away+for+a+while Sunrise</data>
-   <data>hoanganh 9USXa8vKusJ1aVQ4il%2Fwow%3D%3D hoang123456 Volunteer Where+do+you+go+to%3F Toonami+</data>
+   <data>abc 5Ed5CIkj9UQfaMZXAkDVaQ%3D%3D abcd1234 TeamA Hello %E7%8A%AC%E5%A4%9C%E5%8F%89 null</data>
+   <data>user-1 MZgS3bkacIma%2BdCTaK%2FmaA%3D%3D SampleUs%40r-1 Delta How+are+you%3F Sengoku+Otogiz%C5%8Dshi+Inuyasha null</data>
+   <data>abcd 5Ed5CIkj9URTaTZUEOxAiQ%3D%3D abcd123456 Long+Legs+Ladies I%27m+fine+%40abc November+13%2C+1996 null</data>
+   <data>hoangnguyen X3%2BBISe%2BmZsi9LbjuUIPmA%3D%3D hoangnguyen%2B1 Cookolic I%27ll+be+away+for+a+while Sunrise null</data>
+   <data>hoanganh 9USXa8vKusJ1aVQ4il%2Fwow%3D%3D hoang123456 Volunteer Where+do+you+go+to%3F Toonami+ null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
@@ -41,6 +41,11 @@
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>search_term</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>anotherteam</name>
       <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

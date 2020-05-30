@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Type/Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -353,6 +353,33 @@
          <type>DATA_COLUMN</type>
          <value>search_term</value>
          <variableId>034a3ecc-82b1-4f35-8bae-e64203378c4c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>866ed3f1-0c6b-4204-be49-cb5261ed4637</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/If/Join another team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>773ed635-766f-4e57-b44f-1e9c021a7ec6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>773ed635-766f-4e57-b44f-1e9c021a7ec6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>18554ee0-0d84-426f-ae8d-30c96058a7b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>773ed635-766f-4e57-b44f-1e9c021a7ec6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4176ccb4-3f60-46f7-8f23-786446ca2596</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

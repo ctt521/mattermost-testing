@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -325,7 +325,7 @@
    <testCaseLink>
       <guid>ce910ee1-04a7-4f58-8819-21782cdaa1c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Internal/Search post</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

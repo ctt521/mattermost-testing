@@ -157,7 +157,7 @@
    <testCaseLink>
       <guid>1d064dab-86f3-4481-8b59-7777024c6ae8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Internal/Create channel (private)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -173,6 +173,33 @@
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>d2f8a5be-fa36-40c8-85e3-28a1cdab28a2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48b994d6-4a73-432c-ae22-ce27f62a78b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Loop Statement/Login n times</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>61ae10bf-b3cf-4b11-bb15-328c75eb2c88</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>61ae10bf-b3cf-4b11-bb15-328c75eb2c88</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6db503e1-b571-42b8-8ab6-ab50447275a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61ae10bf-b3cf-4b11-bb15-328c75eb2c88</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>d00e4df8-023e-41fb-acb6-ddc84075a5e5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

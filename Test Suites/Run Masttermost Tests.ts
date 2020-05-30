@@ -292,7 +292,7 @@
    <testCaseLink>
       <guid>f8d69cbc-7701-455a-ab36-702a0cbc77bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Internal/Create post</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -320,6 +320,39 @@
          <type>DATA_COLUMN</type>
          <value>newpost</value>
          <variableId>08cd727f-2086-4c30-806c-765d047fac9d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce910ee1-04a7-4f58-8819-21782cdaa1c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Search post</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6cad9f64-5594-4290-a588-51b8ab0f71fa</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6cad9f64-5594-4290-a588-51b8ab0f71fa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>47e21af5-10d2-45de-bcca-47b209b79a5a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6cad9f64-5594-4290-a588-51b8ab0f71fa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a5d924bb-5035-44c2-9506-30ab613bef1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6cad9f64-5594-4290-a588-51b8ab0f71fa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>search_term</value>
+         <variableId>034a3ecc-82b1-4f35-8bae-e64203378c4c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

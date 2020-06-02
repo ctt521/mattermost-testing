@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -505,7 +505,7 @@
    <testCaseLink>
       <guid>c885875b-5891-4f2d-8b90-dfd964f8689f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Internal/Direct message</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -533,6 +533,27 @@
          <type>DATA_COLUMN</type>
          <value>message</value>
          <variableId>a30122f4-234e-4b0b-8ffb-8bd05a27576e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>654dd5a5-197b-4be1-904f-486444de9866</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Internal/Forgot password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fe75dc7d-b261-47c0-b9aa-06e929085fec</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Forgot password</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fe75dc7d-b261-47c0-b9aa-06e929085fec</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>d7140ee0-4977-4951-ad18-857ed8905b6c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -18,38 +18,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
-
 WebUI.callTestCase(findTestCase('Internal/Login succeed'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-int username_len = username.length();
-String theme;
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/button_addDirectMessages'))
 
-if(username_len <= 5){
-	theme = "dark"
-}
-else{
-	theme = "light"
-}
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/div_firstUser'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hotpink Mattermost/btn_hambergerMenu'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/button_Go'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/button_Account Settings'))
+WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello Mattermost/txtbox_message'), message)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/button_Display'))
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/button_Edit'))
-
-switch(theme){
-	case 'light':
-	WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/img_Organization_img-responsive'))
-	break;
-	case 'dark':
-	WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/img_Theme Colors_img-responsive'))
-	break;
-}
-
-WebUI.click(findTestObject('Object Repository/Page_Town Square - hello Mattermost/button_Save'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - hello Mattermost/txtbox_message'), Keys.chord(
+        Keys.ENTER))
 
 WebUI.closeBrowser()
 

@@ -359,7 +359,7 @@
       <guid>866ed3f1-0c6b-4204-be49-cb5261ed4637</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/If/Join another team</testCaseId>
+      <testCaseId>Test Cases/If Statement/Join another team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>773ed635-766f-4e57-b44f-1e9c021a7ec6</id>
@@ -418,7 +418,7 @@
    <testCaseLink>
       <guid>29c8fd39-bb8f-4299-9af7-878708cff194</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Type/Create private channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -446,6 +446,33 @@
          <type>DATA_COLUMN</type>
          <value>createPrivateChannel</value>
          <variableId>049d1f87-f58d-4d4b-bea5-3d91c871bc7f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa411f62-820b-4428-94aa-00877efc1dc9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Statement/Change status by username.length</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0d3fd6d-0bbf-49ad-af05-0d0648320ea6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c0d3fd6d-0bbf-49ad-af05-0d0648320ea6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>dccf5489-73ed-4242-b300-953747197a2e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0d3fd6d-0bbf-49ad-af05-0d0648320ea6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>988a562b-a338-43d6-93bc-19bd797bf715</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

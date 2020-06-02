@@ -478,7 +478,7 @@
    <testCaseLink>
       <guid>03837249-daca-46ee-b94a-663c71293e37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Case Statement/Change theme by username.length</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -500,6 +500,39 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>da377323-5973-4759-8ff0-4a6ea4fb19f7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c885875b-5891-4f2d-8b90-dfd964f8689f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Direct message</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dcbcb4af-10a9-4514-aa32-133bc58ba811</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>dcbcb4af-10a9-4514-aa32-133bc58ba811</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>e004d982-0b21-4a96-b51f-a648021dc290</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcbcb4af-10a9-4514-aa32-133bc58ba811</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>25796695-2fe4-49fc-a038-eccddeb89c28</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcbcb4af-10a9-4514-aa32-133bc58ba811</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>message</value>
+         <variableId>a30122f4-234e-4b0b-8ffb-8bd05a27576e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

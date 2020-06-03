@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user-1')
 

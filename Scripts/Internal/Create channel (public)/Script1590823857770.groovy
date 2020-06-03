@@ -26,11 +26,11 @@ WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communicat
 
 WebUI.click(findTestObject('Page_Mattermost/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/span_'))
+WebUI.click(findTestObject('Page_ Town Square - eligendi Mattermost/span_'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/input_Name_newChannelName'), name)
+WebUI.setText(findTestObject('Page_ Town Square - eligendi Mattermost/input_Name_newChannelName'), name)
 
-WebUI.click(findTestObject('Object Repository/Page_ Town Square - eligendi Mattermost/button_Create New Channel'))
+WebUI.click(findTestObject('Page_ Town Square - eligendi Mattermost/button_Create New Channel'))
 
 WebUI.closeBrowser()
 

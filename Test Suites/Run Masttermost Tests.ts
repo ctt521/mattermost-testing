@@ -38,27 +38,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb1e6517-2228-48f0-9052-ab41e476ebd4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Internal/Create channel</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/NameChannel</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>name</value>
-         <variableId>104a9c72-9817-42c9-b699-59eeecf29402</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -157,7 +136,7 @@
    <testCaseLink>
       <guid>1d064dab-86f3-4481-8b59-7777024c6ae8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Internal/Create channel (private)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -173,6 +152,27 @@
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>d2f8a5be-fa36-40c8-85e3-28a1cdab28a2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb169547-4a4d-461e-ab47-be3771ca0b5f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Create channel (public)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5d1ea26a-8818-484c-a32c-dddd34474a98</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NameChannel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5d1ea26a-8818-484c-a32c-dddd34474a98</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>9c05d9ca-2240-43af-832b-c6c2d05911e3</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

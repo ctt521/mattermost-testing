@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Data Type/Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -554,6 +554,33 @@
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>d7140ee0-4977-4951-ad18-857ed8905b6c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69ec0aef-f5e3-41b5-abc1-de1090c133f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/If Statement/Leave team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d90d291e-3c5e-4d98-98d8-08b02f5ff9f2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d90d291e-3c5e-4d98-98d8-08b02f5ff9f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>26f2efbc-b759-4ef0-880b-c3184abfb5bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d90d291e-3c5e-4d98-98d8-08b02f5ff9f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c56e1323-b812-4808-b704-ec7ab1ed8063</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

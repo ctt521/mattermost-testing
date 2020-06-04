@@ -559,7 +559,7 @@
    <testCaseLink>
       <guid>69ec0aef-f5e3-41b5-abc1-de1090c133f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/If Statement/Leave team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -581,6 +581,66 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>c56e1323-b812-4808-b704-ec7ab1ed8063</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e9eaf17-bb0f-4865-9868-167f06a2aa2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Loop Statement/Search and add members</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8af7fa24-bd55-49ac-82ab-8a6b6839217d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InternalData_UserAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8af7fa24-bd55-49ac-82ab-8a6b6839217d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b82d02b7-55fa-48ae-9f66-c829bbc86ada</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8af7fa24-bd55-49ac-82ab-8a6b6839217d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>2a39f863-99ad-4102-99a3-3a34067571df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1732b8f-34a4-4aa2-b8e3-dc666e10297a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Set a header of channel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7bf0e6db-aea7-41c6-8450-3d10ec0128fe</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Channel Headers</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7bf0e6db-aea7-41c6-8450-3d10ec0128fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b092b917-0e1b-4f10-8944-ac1611268f2e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7bf0e6db-aea7-41c6-8450-3d10ec0128fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6b2d46dd-9bd5-48a0-b73b-5421c7ce4b43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7bf0e6db-aea7-41c6-8450-3d10ec0128fe</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>header</value>
+         <variableId>e1aab8cb-6938-4f00-883b-eb7a3aa69dec</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

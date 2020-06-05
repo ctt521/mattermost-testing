@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6beaf6d4-87e2-48ee-9578-d8c170bddf4b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64c36114-0049-45a5-9749-13dce92e873d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8ab261e-28ee-4507-9432-948a150a394d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20b26252-f90c-427b-8385-3e53377c3223</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32f59be8-d8c9-4246-992d-0eb581a0203a</id>
+      <masked>false</masked>
+      <name>confirm_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bca6c13b-be96-4f7d-8061-7e92bb4c0a1b</id>
+      <masked>false</masked>
+      <name>confirm_password</name>
+   </variable>
+</TestCaseEntity>

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>eb1e6517-2228-48f0-9052-ab41e476ebd4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Create channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -61,7 +61,7 @@
    <testCaseLink>
       <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Change email accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>71bb0baf-799b-409a-b43f-cbaeabae5441</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Wrong password account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -136,7 +136,7 @@
    <testCaseLink>
       <guid>eee92a4a-14d5-472a-9e4b-5e1276fbf1eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Wrong username account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -157,7 +157,7 @@
    <testCaseLink>
       <guid>1d064dab-86f3-4481-8b59-7777024c6ae8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Create channel (private)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -178,7 +178,7 @@
    <testCaseLink>
       <guid>c2f8033e-efc4-4536-b0c3-2271b7d9fb33</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Login succeed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -205,7 +205,7 @@
    <testCaseLink>
       <guid>7999b7f1-b80d-47a5-a74d-7d4a43d69cb7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Login fail with invalid account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -232,7 +232,7 @@
    <testCaseLink>
       <guid>86c626c9-81d0-4c6f-8846-d3ee8a16d55a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Loop Statement/Login n times</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -259,7 +259,7 @@
    <testCaseLink>
       <guid>b108f28a-4131-4917-9be8-fbcea6e696d9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Call Test Case/Create new team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -292,7 +292,7 @@
    <testCaseLink>
       <guid>f8d69cbc-7701-455a-ab36-702a0cbc77bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Create post</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -325,7 +325,7 @@
    <testCaseLink>
       <guid>ce910ee1-04a7-4f58-8819-21782cdaa1c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Search post</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -358,7 +358,7 @@
    <testCaseLink>
       <guid>866ed3f1-0c6b-4204-be49-cb5261ed4637</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/If Statement/Join another team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -385,7 +385,7 @@
    <testCaseLink>
       <guid>5f4d9e74-a6cd-40b4-bffb-1b4cdca43bec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create public channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -418,7 +418,7 @@
    <testCaseLink>
       <guid>29c8fd39-bb8f-4299-9af7-878708cff194</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create private channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -451,7 +451,7 @@
    <testCaseLink>
       <guid>aa411f62-820b-4428-94aa-00877efc1dc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Statement/Change status by username.length</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -478,7 +478,7 @@
    <testCaseLink>
       <guid>03837249-daca-46ee-b94a-663c71293e37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Statement/Change theme by username.length</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -505,7 +505,7 @@
    <testCaseLink>
       <guid>c885875b-5891-4f2d-8b90-dfd964f8689f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Direct message</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -538,7 +538,7 @@
    <testCaseLink>
       <guid>654dd5a5-197b-4be1-904f-486444de9866</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Forgot password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -559,7 +559,7 @@
    <testCaseLink>
       <guid>69ec0aef-f5e3-41b5-abc1-de1090c133f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/If Statement/Leave team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -586,7 +586,7 @@
    <testCaseLink>
       <guid>7e9eaf17-bb0f-4865-9868-167f06a2aa2f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Loop Statement/Search and add members</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -641,6 +641,183 @@
          <type>DATA_COLUMN</type>
          <value>header</value>
          <variableId>e1aab8cb-6938-4f00-883b-eb7a3aa69dec</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff2a6967-1bc7-4a31-9bbb-21aebf1a6696</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Invite another to this team</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e273e72d-8047-4916-b887-88a0b7018b89</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Invite another to this team</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e273e72d-8047-4916-b887-88a0b7018b89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c40076ef-941e-442e-bcf6-66484b4422ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e273e72d-8047-4916-b887-88a0b7018b89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4b5de071-6052-46be-8eb4-04bee6c40d38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e273e72d-8047-4916-b887-88a0b7018b89</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>key</value>
+         <variableId>dbb7f1d1-9f48-4714-80a0-f647b80a69aa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74fa79dc-013d-411a-9baa-697d3e07586c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Type/Change email</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6c731974-d58d-4471-b9cd-425ce38ec6d3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Change Email</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6c731974-d58d-4471-b9cd-425ce38ec6d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>64c36114-0049-45a5-9749-13dce92e873d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c731974-d58d-4471-b9cd-425ce38ec6d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c8ab261e-28ee-4507-9432-948a150a394d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c731974-d58d-4471-b9cd-425ce38ec6d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>20b26252-f90c-427b-8385-3e53377c3223</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c731974-d58d-4471-b9cd-425ce38ec6d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirm_email</value>
+         <variableId>32f59be8-d8c9-4246-992d-0eb581a0203a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c731974-d58d-4471-b9cd-425ce38ec6d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirm_password</value>
+         <variableId>bca6c13b-be96-4f7d-8061-7e92bb4c0a1b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59a789a9-d4fc-4a81-886e-e3072cfb8549</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Type/Change position</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e265ceea-7c77-4012-b22d-2c59c6a5769a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Change Position</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e265ceea-7c77-4012-b22d-2c59c6a5769a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a762434e-e703-4c3c-b47a-dd02fd5e5214</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e265ceea-7c77-4012-b22d-2c59c6a5769a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>54ff4fa7-e5aa-4a3d-8dd9-3bf9cba9e6c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e265ceea-7c77-4012-b22d-2c59c6a5769a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>position</value>
+         <variableId>cceae2f9-71aa-467b-8fd5-328360817a86</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b79ab04-12ee-48f8-aa5b-bfa9b2184640</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Type/Change team name</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d311a989-55bd-484d-b001-a61489123666</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Change Team Name</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d311a989-55bd-484d-b001-a61489123666</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>50628d95-4c72-41f9-898b-77a600be35a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d311a989-55bd-484d-b001-a61489123666</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>fef20d15-5224-4ae6-87e0-5bf59d7fb183</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d311a989-55bd-484d-b001-a61489123666</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>110419a4-b49d-4533-9fca-fb89a9d2eefd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d57b100e-ca2b-4f89-9c84-beb199dfc66a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Internal/Change team description</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>67a9d07d-ebc3-44cd-9cfc-107f29bb93f4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Change Team Description</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>67a9d07d-ebc3-44cd-9cfc-107f29bb93f4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>47f16403-67ca-4353-9dfd-9e4a020d3247</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>67a9d07d-ebc3-44cd-9cfc-107f29bb93f4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a5a1feac-7950-4915-a53f-dfd1fbd3c15a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>67a9d07d-ebc3-44cd-9cfc-107f29bb93f4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>9950a5e6-1166-4623-85e6-bf9837af4d53</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

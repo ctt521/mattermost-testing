@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Change Position</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>cecfd89b-906c-4fa3-a8a1-b67a03daedae</dataFileGUID>
+   <dataSourceUrl>E:\Documents_2019-2020\Semester2\Các chủ đề nâng cao trong công nghệ phần mềm\Hw2\mattermost-testing\csv\ChangePosition.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

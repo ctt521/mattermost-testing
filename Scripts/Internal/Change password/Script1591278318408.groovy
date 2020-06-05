@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.callTestCase(findTestCase('Internal/Login succeed'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,13 +30,11 @@ WebUI.click(findTestObject('Object Repository/Change Password/button_Security'))
 
 WebUI.click(findTestObject('Object Repository/Change Password/button_Edit'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/input_currentPassword'), 
-    current_password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/input_currentPassword'), current_password)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/input_newPassword'), new_password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/input_confirmPassword'), 
-    new_pwd_repeat)
+WebUI.setEncryptedText(findTestObject('Object Repository/Change Password/input_confirmPassword'), new_pwd_repeat)
 
 WebUI.click(findTestObject('Object Repository/Change Password/button_Save'))
 

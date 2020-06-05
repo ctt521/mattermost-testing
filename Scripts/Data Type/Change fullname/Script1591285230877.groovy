@@ -18,11 +18,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
-WebUI.callTestCase(findTestCase('Test Cases/Data Type/Login user accounts'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Data Type/Login user accounts'), [('username') : username, ('password') : password], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Change email/button_hambugerMenu'));
+WebUI.click(findTestObject('Object Repository/Change email/button_hambugerMenu'))
 
 WebUI.click(findTestObject('Object Repository/Change fullname/button_Account Settings'))
 

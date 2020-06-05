@@ -18,13 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 //String username = 'abcd';
 //String password = '5Ed5CIkj9URTaTZUEOxAiQ==';
 //String position = 'Teacher';
-
-WebUI.callTestCase(findTestCase('Test Cases/Data Type/Login user accounts'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/Data Type/Login user accounts'), [('username') : username, ('password') : password], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/User position/button_abcd_style--none sidebar-header-drop_b74a95'))
 

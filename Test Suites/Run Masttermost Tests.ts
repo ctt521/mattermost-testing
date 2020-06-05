@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>5f75e1d9-65c1-4d77-9bf6-153daa643c89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Login user accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -40,7 +40,7 @@
    <testCaseLink>
       <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Change email accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>9cbbea93-9e32-429f-9910-09a22dbdca82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>71bb0baf-799b-409a-b43f-cbaeabae5441</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Wrong password account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -115,7 +115,7 @@
    <testCaseLink>
       <guid>eee92a4a-14d5-472a-9e4b-5e1276fbf1eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Wrong username account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -136,7 +136,7 @@
    <testCaseLink>
       <guid>1d064dab-86f3-4481-8b59-7777024c6ae8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Create channel (private)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -157,7 +157,7 @@
    <testCaseLink>
       <guid>c2f8033e-efc4-4536-b0c3-2271b7d9fb33</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Login succeed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -184,7 +184,7 @@
    <testCaseLink>
       <guid>7999b7f1-b80d-47a5-a74d-7d4a43d69cb7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Login fail with invalid account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -211,7 +211,7 @@
    <testCaseLink>
       <guid>86c626c9-81d0-4c6f-8846-d3ee8a16d55a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Loop Statement/Login n times</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -238,7 +238,7 @@
    <testCaseLink>
       <guid>b108f28a-4131-4917-9be8-fbcea6e696d9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Call Test Case/Create new team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -922,7 +922,7 @@
    <testCaseLink>
       <guid>ebdca193-343f-4f55-98fa-bc7b8ed7775a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/If Statement/Change Dark Theme</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -16,11 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.callTestCase(findTestCase('Test Cases/Data Type/Login user accounts'), [('username') : username, ('password') : password], 
     FailureHandling.STOP_ON_FAILURE)
@@ -36,5 +34,4 @@ WebUI.setText(findTestObject('Object Repository/Change nickname/input_Nickname_n
 WebUI.click(findTestObject('Object Repository/Change nickname/button_Save'))
 
 WebUI.closeBrowser()
-
 

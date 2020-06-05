@@ -18,24 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.callTestCase(findTestCase('Internal/Login succeed'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
+if (username.length() > 12) {
+    WebUI.click(findTestObject('Object Repository/Time format 12/button_abcd_style--none sidebar-header-drop_b74a95'))
 
+    WebUI.click(findTestObject('Object Repository/Time format 12/button_Account Settings'))
 
-if(username.length()>12){
-	
-WebUI.click(findTestObject('Object Repository/Time format 12/button_abcd_style--none sidebar-header-drop_b74a95'))
-WebUI.click(findTestObject('Object Repository/Time format 12/button_Account Settings'))
+    WebUI.click(findTestObject('Object Repository/Time format 12/button_Display'))
 
-WebUI.click(findTestObject('Object Repository/Time format 12/button_Display'))
+    WebUI.click(findTestObject('Object Repository/Time format 12/span_12-hour clock (example 400 PM)'))
 
-WebUI.click(findTestObject('Object Repository/Time format 12/span_12-hour clock (example 400 PM)'))
+    WebUI.click(findTestObject('Object Repository/Time format 12/label_24-hour clock (example 1600)'))
 
-
-WebUI.click(findTestObject('Object Repository/Time format 12/label_24-hour clock (example 1600)'))
-WebUI.click(findTestObject('Object Repository/Time format 12/button_Save'))
+    WebUI.click(findTestObject('Object Repository/Time format 12/button_Save'))
 }
-
 

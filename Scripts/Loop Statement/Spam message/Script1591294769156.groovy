@@ -18,15 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
+WebUI.navigateToUrl('http://localhost:8065/login')
 
 WebUI.callTestCase(findTestCase('Internal/Login succeed'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
-for(int i=0;i<5;i++){
+for (int i = 0; i < 5; i++) {
+    WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello Mattermost/txtbox_message'), 'Hello')
 
-WebUI.setText(findTestObject('Object Repository/Page_Town Square - hello Mattermost/txtbox_message'), 'Hello')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - hello Mattermost/txtbox_message'), Keys.chord(
-        Keys.ENTER))
-
+    WebUI.sendKeys(findTestObject('Object Repository/Page_Town Square - hello Mattermost/txtbox_message'), Keys.chord(Keys.ENTER))
 }
+

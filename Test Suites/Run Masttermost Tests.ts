@@ -38,27 +38,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb1e6517-2228-48f0-9052-ab41e476ebd4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Internal/Create channel</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/NameChannel</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>d2dc0be9-19ab-4d27-b60f-e8ebf52e474f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>name</value>
-         <variableId>104a9c72-9817-42c9-b699-59eeecf29402</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6d4a0dd8-604e-45b1-afe3-a8d074b05ca4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -926,6 +905,45 @@
          <type>DATA_COLUMN</type>
          <value>position</value>
          <variableId>0c60728b-1f26-4998-bb4d-415bed6d2d7f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ea16215-3eca-4e05-a016-5cde6dac3990</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Internal/Create channel (public)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9c05d9ca-2240-43af-832b-c6c2d05911e3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ebdca193-343f-4f55-98fa-bc7b8ed7775a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/If Statement/Change Dark Theme</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3a34ab2a-17be-4e08-8776-37213fe53575</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Accounts</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3a34ab2a-17be-4e08-8776-37213fe53575</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>400b2bc9-d9b0-4d0d-b5a0-0b49c5885204</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a34ab2a-17be-4e08-8776-37213fe53575</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6712e9e3-fdf6-41ee-b89c-cbf8b0a6aec2</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

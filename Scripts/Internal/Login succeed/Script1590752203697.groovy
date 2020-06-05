@@ -18,11 +18,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
 
 WebUI.setText(findTestObject('Page_Mattermost/input_username'), username)
 
 WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_password'), password)
 
-WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
-
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/button_Sign in'))

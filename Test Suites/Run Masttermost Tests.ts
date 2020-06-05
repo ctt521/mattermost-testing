@@ -157,7 +157,7 @@
    <testCaseLink>
       <guid>eb169547-4a4d-461e-ab47-be3771ca0b5f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Internal/Create channel (public)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -173,6 +173,33 @@
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>9c05d9ca-2240-43af-832b-c6c2d05911e3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2bac673-b9f9-4492-8f1a-c041fb2dfd6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Change Dark Theme</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9d23b1d4-76f9-4ceb-8292-4e6f4918392a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9d23b1d4-76f9-4ceb-8292-4e6f4918392a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>400b2bc9-d9b0-4d0d-b5a0-0b49c5885204</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9d23b1d4-76f9-4ceb-8292-4e6f4918392a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>6712e9e3-fdf6-41ee-b89c-cbf8b0a6aec2</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

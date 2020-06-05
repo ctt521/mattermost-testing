@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>0e5e2a36-139b-404c-bb93-b491d14c259c</dataFileGUID>
-   <dataSourceUrl>/Users/hieutong/Documents/hieutong/AdvancedItem/mattermost-testing/csv/UserAccounts.csv</dataSourceUrl>
+   <dataSourceUrl>csv/UserAccounts.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>

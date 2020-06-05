@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Sign in</name>
    <tag></tag>
-   <elementGuidId>1e490a2e-b4d8-46d4-ad8f-bc8b7233c916</elementGuidId>
+   <elementGuidId>eb1b478f-3588-4467-bc31-03ad8bbdf29b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -95,19 +95,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='login_section']/div/div[2]/div/form/div/div[4]/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a valid email or username and/or password.'])[1]/following::button[1]</value>
    </webElementXpaths>
 </WebElementEntity>

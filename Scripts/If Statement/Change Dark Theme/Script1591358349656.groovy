@@ -27,20 +27,21 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Dark Theme If else/inpu
     password)
 
 int length = username.length()
+
 if (length > 5) {
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Sign in'))
-	
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/h1_eligendi'))
-	
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Account Settings'))
-	
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Display'))
-	
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/i_Theme_fa fa-pencil'))
-	
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/img_Organization_img-responsive'))
-	
-	WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Save'))
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Sign in'))
+
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/h1_eligendi'))
+
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Account Settings'))
+
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Display'))
+
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/i_Theme_fa fa-pencil'))
+
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/img_Organization_img-responsive'))
+
+    WebUI.click(findTestObject('Object Repository/Dark Theme If else/button_Save'))
 }
 
 WebUI.closeBrowser()

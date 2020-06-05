@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Change Team Name</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>b2cb9180-c180-4fa4-98a0-9934f4084030</dataFileGUID>
+   <dataSourceUrl>E:\Documents_2019-2020\Semester2\Các chủ đề nâng cao trong công nghệ phần mềm\Hw2\mattermost-testing\csv\ChangeTeamName.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

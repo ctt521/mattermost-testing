@@ -1,0 +1,6 @@
+username,password,email,confirm_email,confirm_password
+abc,abcd1234,abcde@abc.com,abcde@abc.com,5Ed5CIkj9UQfaMZXAkDVaQ==
+abc,abcd1234,abcde,abcde,5Ed5CIkj9UQfaMZXAkDVaQ==
+abc,abcd1234,abcde@abc.com,abcd@abc.com,5Ed5CIkj9UQfaMZXAkDVaQ==
+abc,abcd1234,abcde@abc.com,abcde@abc.com,5Ed5CIkj9UQfaMZXAkDV==
+abc,abcd1234,abcdef@abc.com,abcdef@abc.com,5Ed5CIkj9UQfaMZXAkDVaQ==

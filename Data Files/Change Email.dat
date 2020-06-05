@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Change Email</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>39d03bfb-28c9-47a4-b9a7-ef96f5685e4f</dataFileGUID>
+   <dataSourceUrl>E:\Documents_2019-2020\Semester2\Các chủ đề nâng cao trong công nghệ phần mềm\Hw2\mattermost-testing\csv\ChangeEmail.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -614,7 +614,7 @@
       <guid>d1732b8f-34a4-4aa2-b8e3-dc666e10297a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Internal/Set a header of channel</testCaseId>
+      <testCaseId>Test Cases/Call Test Case/Set a header of channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7bf0e6db-aea7-41c6-8450-3d10ec0128fe</id>

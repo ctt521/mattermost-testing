@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/login')
+WebUI.navigateToUrl('http://mattermost-5171.herokuapp.com/login')
 
 for (int i = 0; i < 4; i++) {
     WebUI.setText(findTestObject('Page_Mattermost/input_username'), username)

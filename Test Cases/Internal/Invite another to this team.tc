@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invite another to this team</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fcd388c-3d8d-4ada-82bf-9a9c494b17c9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c40076ef-941e-442e-bcf6-66484b4422ad</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b5de071-6052-46be-8eb4-04bee6c40d38</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dbb7f1d1-9f48-4714-80a0-f647b80a69aa</id>
+      <masked>false</masked>
+      <name>key</name>
+   </variable>
+</TestCaseEntity>

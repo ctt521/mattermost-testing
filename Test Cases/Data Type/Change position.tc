@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change position</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c4dcbb0-8c07-4475-bbe5-c13662bc8319</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a762434e-e703-4c3c-b47a-dd02fd5e5214</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54ff4fa7-e5aa-4a3d-8dd9-3bf9cba9e6c3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cceae2f9-71aa-467b-8fd5-328360817a86</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+</TestCaseEntity>

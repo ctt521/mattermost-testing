@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Set header of channel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92b4cc73-24f7-481c-a5d6-0f126a0b5c88</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99a5c183-0844-4698-9d5d-d9c4fc78eafe</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be82989c-3a61-4509-9d16-66a178817cb6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99681bfa-9738-48a4-b1e6-6753c9f30ebb</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

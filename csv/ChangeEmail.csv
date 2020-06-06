@@ -1,0 +1,6 @@
+username,password,email,confirm_email,confirm_password
+abc,5Ed5CIkj9UQfaMZXAkDVaQ==,abcde@abc.com,abcde@abc.com,5Ed5CIkj9UQfaMZXAkDVaQ==
+abc,5Ed5CIkj9UQfaMZXAkDVaQ==,abcde,abcde,5Ed5CIkj9UQfaMZXAkDVaQ==
+abc,5Ed5CIkj9UQfaMZXAkDVaQ==,abcde@abc.com,abcd@abc.com,5Ed5CIkj9UQfaMZXAkDVaQ==
+abc,5Ed5CIkj9UQfaMZXAkDVaQ==,abcde@abc.com,abcde@abc.com,5Ed5CIkj9UQfaMZXAkDV==
+abc,5Ed5CIkj9UQfaMZXAkDVaQ==,abcdef@abc.com,abcdef@abc.com,5Ed5CIkj9UQfaMZXAkDVaQ==

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Leave a team</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a24d897c-991f-472f-a0b0-e79d7413da07</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>149e8111-7e13-4690-ad1b-a8cd45156e05</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9a86dc3-fc4e-459a-9f34-94739cda740e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -8,6 +8,8 @@ Libs
 
 output
 
+Reports
+
 !output/.gitkeep
 build
 
@@ -18,3 +20,4 @@ build
 /settings
 
 settings/internal/
+

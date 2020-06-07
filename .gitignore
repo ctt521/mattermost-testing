@@ -2,7 +2,7 @@
 
 bin
 
-Reports
+#Reports
 
 Libs
 
@@ -16,3 +16,5 @@ build
 .project
 
 /settings
+
+settings/internal/

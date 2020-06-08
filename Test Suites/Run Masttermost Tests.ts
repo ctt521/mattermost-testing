@@ -271,7 +271,7 @@
    <testCaseLink>
       <guid>f8d69cbc-7701-455a-ab36-702a0cbc77bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Create post</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -304,7 +304,7 @@
    <testCaseLink>
       <guid>ce910ee1-04a7-4f58-8819-21782cdaa1c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Search post</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -337,7 +337,7 @@
    <testCaseLink>
       <guid>866ed3f1-0c6b-4204-be49-cb5261ed4637</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/If Statement/Join another team</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -364,7 +364,7 @@
    <testCaseLink>
       <guid>5f4d9e74-a6cd-40b4-bffb-1b4cdca43bec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create public channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -397,7 +397,7 @@
    <testCaseLink>
       <guid>29c8fd39-bb8f-4299-9af7-878708cff194</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Create private channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -430,7 +430,7 @@
    <testCaseLink>
       <guid>aa411f62-820b-4428-94aa-00877efc1dc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Statement/Change status by username.length</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -457,7 +457,7 @@
    <testCaseLink>
       <guid>03837249-daca-46ee-b94a-663c71293e37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Statement/Change theme by username.length</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -484,7 +484,7 @@
    <testCaseLink>
       <guid>c885875b-5891-4f2d-8b90-dfd964f8689f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Direct message</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -517,7 +517,7 @@
    <testCaseLink>
       <guid>97da1795-6e3b-473f-a449-bc33215ab186</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Change header purpose</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -544,7 +544,7 @@
    <testCaseLink>
       <guid>c5e3aa0e-ab1f-4ecf-9381-d27071a711d1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Change password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -589,7 +589,7 @@
    <testCaseLink>
       <guid>2583847f-6cff-4e78-8fee-fc8580f66d6a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Invite member</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -616,7 +616,7 @@
    <testCaseLink>
       <guid>e5a7ae99-4db9-4039-bafa-5d4ba2401578</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Change fullname</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -649,7 +649,7 @@
    <testCaseLink>
       <guid>041c6277-2026-4cd2-a8d1-944b4281f486</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/Change nickname</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -682,7 +682,7 @@
    <testCaseLink>
       <guid>21c8339d-2bd3-43ed-8610-d47c183088fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Case Statement/Change language</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -715,7 +715,7 @@
    <testCaseLink>
       <guid>ecd2b3cb-ac12-40fa-bd12-d3da9a06c41b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Data Type/View channel info</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -742,7 +742,7 @@
    <testCaseLink>
       <guid>02e197fc-fbea-4eab-8610-df25604e0798</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Call Test Case/Edit channel purpose</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -769,7 +769,7 @@
    <testCaseLink>
       <guid>6cc72b34-729e-4f5d-abc4-bf159a90511a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Call Test Case/View team member</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -796,7 +796,7 @@
    <testCaseLink>
       <guid>deeabbb4-f2ca-4f53-9ced-bd4fd653cb29</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/If Statement/Turn of Channel Switcher if user.leng greater than 5</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -823,7 +823,7 @@
    <testCaseLink>
       <guid>3710bbc6-d1f6-48fe-8dae-0a826f175c39</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/If Statement/Time format 24 if username.leng greater than 12</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -850,7 +850,7 @@
    <testCaseLink>
       <guid>a48ad7e6-2635-4dcc-86ba-fb583b85e226</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Loop Statement/Spam message</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -877,7 +877,7 @@
    <testCaseLink>
       <guid>b1ead26e-f627-4ed7-b202-bd98c7c7a2ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Change user positon</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -910,7 +910,7 @@
    <testCaseLink>
       <guid>9ea16215-3eca-4e05-a016-5cde6dac3990</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Internal/Create channel (public)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -922,7 +922,7 @@
    <testCaseLink>
       <guid>ebdca193-343f-4f55-98fa-bc7b8ed7775a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/If Statement/Change Dark Theme</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
